@@ -15,10 +15,10 @@ To install the necessary node modules for this demonstration you should run the 
 npm install
 ```
 
-You can then build the demonstration by in the packages folder running the commands:
+You can then build the demonstration by in the packages/vehicle-lifecycle folder running the commands:
 ```
 ./build.sh
-cat installers/hlfv1/install.sh
+cat installers/hlfv1/install.sh | bash
 ```
 
 This should open each of the demonstration pages in your default browser.
